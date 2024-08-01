@@ -1,12 +1,46 @@
+ .card-img-top{
+    max-width: 300px;
+    height: auto;
+    margin-left: 25px;
+ }
+ .card-body{
+    font-size: 1rem;
+    margin: auto;
+ }
+.card {
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-top: 0px;
+}
 
-/* 
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.card-title {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
 
-*/
+.card-text {
+    margin-bottom: 1rem;
+    align-content: center;
+}
+
+.card-body .btn {
+    margin-top: auto; 
+}
+.image-holder{
+    height: 300px;
+}
+.Jumbotron{
+    background-image: url(https://lh4.googleusercontent.com/proxy/7ubxBvO2jKL9-soSE8DbCr6EdasGG1N1PRxuXu5yLK_fA5jPh9BE1bDZtAucNlWXqPWW83IXhssOeoScQRNVzy_Rn5m6h1-1WQPl3kuw3YSaqT44uMTIASY0IMOmZUSL4G5ePEBA7w);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    
+}
