@@ -1,4 +1,6 @@
- .card-img-top{
+
+
+.card-img-top{
     max-width: 300px;
     height: auto;
     margin-left: 25px;
@@ -35,12 +37,4 @@
 }
 .image-holder{
     height: 300px;
-}
-.Jumbotron{
-    background-image: url(https://lh4.googleusercontent.com/proxy/7ubxBvO2jKL9-soSE8DbCr6EdasGG1N1PRxuXu5yLK_fA5jPh9BE1bDZtAucNlWXqPWW83IXhssOeoScQRNVzy_Rn5m6h1-1WQPl3kuw3YSaqT44uMTIASY0IMOmZUSL4G5ePEBA7w);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50vh;
-    background-position: center;
-    
 }
